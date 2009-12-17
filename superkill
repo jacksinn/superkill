@@ -1,0 +1,7 @@
+#!/bin/bash
+
+prog=$1
+
+#echo ${prog}
+ps -ef | grep ${prog} | cut -c 10-14 | xargs kill
+

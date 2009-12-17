@@ -1,0 +1,42 @@
+Copyright 2009 Steven C Jackson
+This software is licensed under the GNU GPLv3
+
+SOFTWARE NAME
+superkill
+
+VERSION
+v0.1
+
+COPYING / LICENSE
+This software is licensed under the GNU GPLv3 which may be found in the root directory of this program or at http://www.gnu.org/licenses/gpl.html
+
+DESCRIPTION
+superkill is a utility to kill all process with a given name in GNU/Linux systems
+
+INSTALLATION
+Put the superkill file somewhere in your PATH. I use /usr/bin
+
+USAGE
+call superkill with an argument of the processname
+be careful what you kill. doing a `ps -ef | grep <process>` before-hand wouldn't hurt to ensure you aren't killing something you dont mean to be
+
+EXAMPLE
+superkill evolution
+
+NEWS
+plans to add gui and verification in future
+
+CHANGELOG
+v0.1	Basic Functionality
+
+AUTHORS
+Steven C Jackson
+
+CONTACT
+scjackson@linux.com, http://coderswasteland.com
+
+THANKS
+As always, a big thanks the the free/libre open source software developers and community
+
+KNOWN BUGS
+
